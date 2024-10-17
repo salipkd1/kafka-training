@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: email-service
+
+
+#kafka:
+#  bootstrap-servers: localhost:9092        # Address of the Kafka broker(s)
+#  consumer:
+#    group-id: my-consumer-group             # Consumer group ID
+#    key-deserializer: org.apache.kafka.common.serialization.StringDeserializer  # Deserializer for the key
+#    value-deserializer: org.apache.kafka.common.serialization.StringDeserializer  # Deserializer for the value
+#    auto-offset-reset: earliest              # What to do when there is no initial offset in Kafka or if the current offset no longer exists
+#    enable-auto-commit: true                 # Whether the consumer's offset should be periodically committed in the background

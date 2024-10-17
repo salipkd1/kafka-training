@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: order-service
+
+
+
+#    kafka:
+#      bootstrap-servers: localhost:9092        # Address of the Kafka broker(s)
+#      producer:
+#        key-serializer: org.apache.kafka.common.serialization.StringSerializer  # Serializer for the key
+#        value-serializer: org.apache.kafka.common.serialization.StringSerializer  # Serializer for the value
+#        acks: all                               # Acknowledgment level (can be none, all, or 1)
+#        retries: 3                              # Number of retries on failure
+#        batch-size: 16384                       # Batch size for sending messages (in bytes)
+#        linger-ms: 5                            # Delay time to wait before sending a batch of messages
+#        buffer-memory: 33554432                 # Total bytes of memory available to the producer for buffering
